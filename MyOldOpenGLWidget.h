@@ -3,7 +3,7 @@
 
 #include <QGLWidget>
 #include <Model3D.h>
-#include <camera.h>
+#include <Camera.h>
 #include <QMouseEvent>
 #include <QWheelEvent>
 #include <QKeyEvent>

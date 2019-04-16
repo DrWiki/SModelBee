@@ -41,9 +41,24 @@ HEADERS += \
 FORMS += \
         SModelBee.ui
 
-LIBS += -lopengl32\
-        -lglu32\
-        -lglut32
+
+
+
+macx {
+    # mac only
+}
+unix:!macx{
+    # linux only
+    LIBS += -lGL\
+            -lGLU\
+#            -lGLUT
+}
+win32 {
+    # windows only
+    LIBS += -lopengl32\
+            -lglu32\
+            -lglut32
+}
 
 RESOURCES += \
     image_src.qrc

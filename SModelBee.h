@@ -4,6 +4,7 @@
 #include <QFileDialog>
 #include <QDebug>
 #include <QMessageBox>
+#include <MyOldOpenGLWidget.h>
 namespace Ui {
 class SModelBee;
 }

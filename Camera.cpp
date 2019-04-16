@@ -1,4 +1,4 @@
-#include "camera.h"
+#include "Camera.h"
 #include <GL/glu.h>
 
  /* 构造函数 */
